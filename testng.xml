@@ -5,7 +5,7 @@
 <suite name="API Smoke Test Suite"
        thread-count="1" verbose="1">
     <listeners>
-        <listener class-name="main.java.cf.listeners.TestListener" />
+        <listener class-name="main.java.listeners.TestListener" />
     </listeners>
     <test name="API Automation Smoke Test Suite">
 
@@ -17,9 +17,9 @@
         </groups>
 
         <classes>
-            <class name="test.java.cf.tests.UserTest" />
-            <class name="test.java.cf.tests.PostsTest" />
-            <class name="test.java.cf.tests.CommentTest" />
+            <class name="test.java.tests.UserTest" />
+            <class name="test.java.tests.PostsTest" />
+            <class name="test.java.tests.CommentTest" />
         </classes>
     </test>
 </suite>
